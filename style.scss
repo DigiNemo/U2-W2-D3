@@ -1,0 +1,49 @@
+@import 'assets/partials/reset';
+@import 'assets/partials/mixins-generici';
+@import 'assets/partials/animazioni';
+@import 'assets/partials/spaziature';
+@import 'assets/partials/font';
+@import 'assets/partials/colori';
+@import 'assets/partials/bottoni';
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    ul {
+        display: flex;
+        align-items: center;
+        li{
+            img{
+                width: 50px;
+            }
+        }
+    }
+    .buttons {
+        display: flex;
+        align-items: center;
+        button {
+            &:hover{
+            background-color: black;
+        }
+        }
+        
+    }
+    
+}
+
+main {
+    .hero {
+        display: flex;
+        .img {
+            display: flex;
+            justify-content: center;
+            
+        }
+    }
+}
+
+
+
+
+

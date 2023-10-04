@@ -1,0 +1,28 @@
+@mixin titleBig {
+    font-size: 2em;
+    margin: 10px;
+    color:#640fc5;
+}
+
+header nav h1 {
+    @include titleBig;
+}
+
+@mixin floating {
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+}
+
+main .hero img {
+    @include floating;
+}
+
+@mixin customFloating {
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px;
+}
+
+.img img {
+    @include customFloating;
+}
